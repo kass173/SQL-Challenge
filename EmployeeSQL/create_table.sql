@@ -43,6 +43,8 @@ CREATE TABLE salaries (
      FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
  );
  
+ALTER DATABASE employees SET datestyle TO "ISO, MDY";
+ 
 --Import CSV files to the tables
  
 -- check that imported data has loaded correctly
