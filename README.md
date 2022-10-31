@@ -16,19 +16,17 @@ I Inspected the CSVs and sketched out an ERD of the tables. With the help of a t
 
 #### Data Engineering
 
-* Use the provided information to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+* Using the provided information i've created a table schema for each of the six CSV files. Remembering to specify data types, primary keys, foreign keys, and other constraints.
 
-  * For the primary keys, verify that the column is unique. Otherwise, create a [composite key](https://en.wikipedia.org/wiki/Compound_key), which takes two primary keys to uniquely identify a row.
+  * For the primary keys, verifying that the column is unique. Otherwise, creating a [composite key](https://en.wikipedia.org/wiki/Compound_key), which takes two primary keys to uniquely identify a row.
 
-  * Be sure to create tables in the correct order to handle foreign keys.
+  * Being sure to create tables in the correct order to handle foreign keys.
 
-* Import each CSV file into the corresponding SQL table. 
-
-  > **Hint:** To avoid errors, be sure to import the data in the same order that the tables were created. Also remember to account for the headers when importing.
+* Importing each CSV file into the corresponding SQL table. 
 
 #### Data Analysis
 
-Once you have a complete database, perform these steps:
+Once i had a completed database, i performed the relevant queries to answer the below questions:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -48,7 +46,7 @@ Once you have a complete database, perform these steps:
 
 ## Bonus (Optional)
 
-As you examine the data, you begin to suspect that the dataset is fake. Maybe your boss gave you spurious data in order to test the data engineering skills of a new employee? To confirm your hunch, you decide to create a visualization of the data to present to your boss. Follow these steps: 
+As i've examine the data, i begin to suspect that the dataset is fake. Maybe your boss gave you spurious data in order to test the data engineering skills of a new employee? To confirm your hunch, you decide to create a visualization of the data to present to your boss. Follow these steps: 
 
 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the following code to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
@@ -69,29 +67,12 @@ As you examine the data, you begin to suspect that the dataset is fake. Maybe yo
 
 ## Submission
 
-* Create an image file of your ERD.
+* an image file of your ERD.
 
-* Create a `.sql` file of your table schemata.
+* a `.sql` file of your table schemata.
 
-* Create a `.sql` file of your queries.
+* a `.sql` file of your queries.
 
 * (Optional) Create a Jupyter notebook of the bonus analysis.
 
-* Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
-
-* Ensure your repository has regular commits and a thorough README.md file
-
-## Rubric
-
-[Unit 9 Homework Rubric](https://docs.google.com/document/d/1OksnTYNCT0v0E-VkhIMJ9-iG0_oXNwCZAJlKV0aVMKQ/edit?usp=sharing)
-
-- - -
-
-## References
-
-Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
-
-- - -
-
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
